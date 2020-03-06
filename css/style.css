@@ -903,7 +903,7 @@ ul.danhsach {
     width: 100%;
     padding: 0;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0;
 }
 
 li.col-4.col-lg-4.muc {
@@ -975,4 +975,107 @@ li.col-3.col-lg-3.muc {
 
 .mucDe a:hover {
     text-decoration: none;
+}
+
+.td_container {
+    display: block;
+    width: 100%;
+}
+
+.conten {
+    display: block;
+    padding: 10px;
+}
+
+.tenLoai h1 {
+    display: block;
+    padding:  10px 0px;
+    font-weight: 900;
+    font-size: 58px;
+    color: #53382C;
+}
+
+.tenLoai {
+    font-family: initial;
+}
+
+.moTa {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sanpham {
+    display: block;
+    width: 100%;
+}
+
+ul.danhsach {
+    display: block;
+}
+
+li.pro {
+    display: inline-block;
+    width: 30%;
+    margin: 11px;
+}
+
+.proItem {
+    display: block;
+}
+
+.proAnh {
+    width: 100%;
+}
+
+.proItem {
+}
+
+.proAnh {
+    border: 1px solid #eeeeee;
+    margin-bottom: 17px;
+}
+
+.proND_TD {
+    display: block;
+}
+
+.proND_TD a h6 {
+    color: #53382C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.proND_TD a:hover {
+    text-decoration: none;
+    color: #B02B2E;
+}
+
+.proND_TD a:hover h6 {
+    color: #B02B2E;
+}
+
+.proND_G p span {
+    color: #53382C;
+    font-weight: bolder;
+}
+
+.proND_G p {
+    display: inline-block;
+}
+
+.them {
+    display: inline-block;
+}
+
+button.themmoi {
+    background: none;
+    border: none;
+}
+
+button.themmoi:hover {
+    font-size: 19px;
+    color: #B02B2E;
 }
