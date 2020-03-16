@@ -1315,7 +1315,7 @@ button.tt_button:hover {
 
 .col-12.col-lg-12.ms_block1.ms-block {
     display: block;
-    margin-top: 12.8%;
+    margin-top: 11.6%;
     padding: 0;
 }
 
@@ -1413,32 +1413,196 @@ h1.ms_tt1 {
 
 button.ms-item_1 {
     text-transform: uppercase;
-    color: #B02B2E;
+    color: #B02B40;
     border-top: 2px solid;
     border-bottom: 2px solid;
 }
 
 button.ms-item_1:hover {
-    color: #eee;
-    background: #B02B2E;
-    font-weight: bold;
+    border: none;
 }
 
 button.ms-item_2:hover {
-    color: #eee;
-    background: #B02B2E;
-    font-weight: bold;
 }
 
 button.ms-item_2 {
     text-transform: uppercase;
     background: none;
-    color: #B02B2E;
     border-bottom: 2px solid;
     border-top: 2px solid;
+    border-color: #fff;
+    color: #fff;
 }
 
 .col-12.col-lg-12.ms_block3.ms_block {
     background: #8E5A2D;
     color: #eee;
+}
+
+button.ms-item_2:hover {
+    color: #B02B2E;
+    background: #fff;
+    border: none;
+}
+
+.ms_img.col-6.col-lg-6.ms_right::before {content: "";top: 0;position: absolute;bottom: 0;left: 0;right: 0;background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);z-index: 2;}
+
+.ms_img.col-6.col-lg-6.ms_left::before {content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;background: -webkit-linear-gradient(left, rgba(255,255,255,0) -1%,rgba(255,255,255,0) 0%,rgba(222,201,173,0) 50%,rgba(192,152,100,1) 95%,rgba(189,148,93,1) 99%);}
+
+.ms_img.col-6.col-lg-6.ms_right-3::before {content: "";top: 0;left: 0;bottom: 0;right: 0;position: absolute;background: linear-gradient(to right, rgba(142,90,45,1) 0%,rgba(194,166,142,0) 46%,rgba(255,255,255,0) 100%);}
+
+.btt1 .ms-item_1 {
+    color: #B02B2E;
+}
+
+.ms_button.left-dt.buttonItem.btt1 {
+    left: 12%;
+}
+
+button.ms-item_1:hover {
+    color: #fff;
+    background: #B02B2E;
+}
+
+button.ms-item_3 {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+button.ms-item_3:hover {
+    color: #B02B2E;
+    background: #fff;
+    border: none;
+}
+
+form#formSearch {
+    margin: 0;
+}
+
+
+section.lh_container {
+    display: block;
+    margin-top: 11.6%;
+}
+
+.lh_content {
+    display: block;
+    background: url(https://highlandscoffee.com.vn/vnt_upload/weblink/bg.png) no-repeat top right;
+    margin: 0 10%;
+}
+
+.lh_tieude {
+    display: block;
+    padding-top: 34px;
+}
+
+h1.lh_title {
+    display: block;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 41px;
+}
+
+.lh_tieude h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lh-form {
+    display: block;
+    margin-top: 30px;
+}
+
+ul.lh-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+
+li.lh-item {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+form.lh-f {
+    display: block;
+    width: 60%;
+}
+
+.lh-phan label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lh-phan input {
+    display: block;
+    width: 83%;
+    position: relative;
+    padding: 10px 6px 10px 50px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #eee;
+}
+
+.lh-phan a {
+    position: absolute;
+    left: 2%;
+    color: #ccc;
+}
+
+.name-input a {
+    transform: translateY(-31px);
+}
+
+.mail-input a {
+    transform: translateY(-199%);
+}
+
+textarea {
+    width: 83%;
+    height: 29%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #eee;
+    padding: 10px 16px 17px 40px;
+}
+
+input.inputMa {
+    width: 98%;
+}
+
+.ma-input {
+    display: inline-block;
+    width: 65%;
+}
+
+.mabaove {
+    display: inline-block;
+}
+
+.ma-input a {
+    transform: translateY(-30px);
+}
+
+.lh-sub {
+    display: block;
+    margin: 37px 0;
+}
+
+button.lh-button {
+    padding: 10px 47px;
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+    background: none;
+    border-radius: 12px;
+}
+
+button.lh-button:hover {
+    color: #fff;
+    background: #B02B2E;
+    border: none;
 }
