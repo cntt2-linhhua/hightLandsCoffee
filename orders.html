@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrint-to-fit=no">
+  <title>Hightland Coffee</title>
+  <link rel="stylesheet" href="bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="font/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Russo+One&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik+Mono+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/order.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="font/flaticon.css">
+
+</head>
+
+<body>
+
+  <!-- Header menu -->
+  <header id="vnt-container">
+    <div id="vnt-header">
+      <div class="wrapper">
+        <div class="logo">
+          <h1><a href="#" target="_self" title="Hightlands Coffee">
+              <img src="https://highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="Hightlands Coffee">
+            </a></h1>
+        </div>
+        <div class="header-tools">
+          <div class="rowTools">
+            <div class="searchTop hidden-sm hidden-xs">
+              <form action="#" id="formSearch" class="box-search">
+                <input id="keyword" type="text" class="text_search" placeholder="Từ khóa">
+                <button><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <div class="languageTop">
+              <ul>
+                <li><a href="#">
+                    <img src="img/flag-vn.jpg" alt="VN">
+                  </a></li>
+                <li><a href="#">
+                    <img src="img/flag-en.jpg" alt="EN">
+                  </a></li>
+              </ul>
+            </div>
+            <div class="menu_mobile hidden-lg hidden-md menu_default">
+              <div class="icon_menu">
+                <span class="style_icon">
+                  Menu
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="menuTop hidden-sm hidden-xs">
+            <ul>
+              <li class="menu-list">
+                <a href="home.html" target="_self"><span>QUÁN CÀ PHÊ</span></a>
+              </li>
+              <li class="menu-mega">
+                <a href="#" target="_self"><span>THỰC ĐƠN</span></a>
+                <div class="menuMega">
+                  <div class="col-12 col-sm-12 mega1">
+                    <div class="grid">
+                      <div class="col-9 col-sm-9 mega-left">
+                        <ul class="listL">
+                          <li class="mega-item">
+                            <a href="#">CÀ PHÊ</a>
+                            <ul class="item-list">
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Cà Phê Phin</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Cà Phê Espresso</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">FREEZE</a>
+                            <ul class="item-list">
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#"> Freeze Cà Phê Phin</a></li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#"> Freeze Không Cà Phê</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">TRÀ</a>
+                            <ul class="item-list">
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Trà Sen Vàng</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Trà Thạch Đào</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Trà Thanh Đào</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Trà Thạch Vải</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">BÁNH MÌ</a>
+                            <ul class="item-list">
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Thịt Nướng</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Xíu Mại</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Chả Lụa Xá Xíu</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Gà Xé Nước Tương</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">KHÁC</a>
+                            <ul class="item-list">
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Bánh Ngọt</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Merchandise</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Cà Phê Đóng Gói</a>
+                              </li>
+                              <li class="items">
+                                <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                <a href="#">Thực Đơn Giao Hàng</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-2 col-sm-2 banner">
+                        <div class="bannerMenu">
+                          <div class="txt">
+                            <a href="#">Phin Sữa Đá Đậm Đà Chất Pin! 29.000đ</a>
+                          </div>
+                          <div class="img">
+                            <a href="#">
+                              <img src="img/z1.jpg" alt="Phin Sữa Đá Đậm Đà Chất Pin! 29.000đ">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-mega">
+                <a href="#" target="_self"><span>TIN TỨC</span></a>
+                <div class="menuMega">
+                  <div class="col-12 col-sm-12 mega1">
+                    <div class="grid">
+                      <div class="col-9 col-sm-9 mega-left">
+                        <ul class="listL">
+                          <li class="mega-item">
+                            <a href="#">TIN TỨC &amp; SỰ KIỆN</a>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">TIN KHUYẾN MÃI</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-2 col-sm-2 banner">
+                        <div class="bannerMenu">
+                          <div class="txt">
+                            <a href="#">Tự hào sinh ra từ đất Việt, 1999!</a>
+                          </div>
+                          <div class="img">
+                            <a href="#">
+                              <img src="img/tuhaoTinTuc.jpg" alt="Tự hào sinh ra từ đất Việt, 1999!">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-mega">
+                <a href="#" target="_self"><span>TRÁCH NHIỆM CỘNG ĐỒNG</span></a>
+                <div class="menuMega">
+                  <div class="col-12 col-sm-12 mega1">
+                    <div class="grid">
+                      <div class="col-9 col-sm-9 mega-left">
+                        <ul class="listL">
+                          <li class="mega-item">
+                            <a href="#">Giá Trị Văn hóa Việt</a>
+                            <ul class="item-list">
+                              <li class="items"><a href="#">Đương Đại Hóa Tranh Đông Hồ</a></li>
+                            </ul>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">Cộng đồng</a>
+                            <ul class="item-list">
+                              <li class="items"><a href="#">Lớp Học Cho Em</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-2 col-sm-2 banner">
+                        <div class="bannerMenu">
+                          <div class="txt">
+                            <a href="#">Đương Đại Hóa Tranh Đông Hồ</a>
+                          </div>
+                          <div class="img">
+                            <a href="#">
+                              <img src="img/dongHoCongDong.jpg" alt="Đương Đại Hóa Tranh Đông Hồ">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-mega">
+                <a href="#" target="_self"><span>VỀ CHÚNG TÔI</span></a>
+                <div class="menuMega">
+                  <div class="col-12 col-sm-12 mega1">
+                    <div class="grid">
+                      <div lass="col-9 col-sm-9 mega-left">
+                        <ul class="listL">
+                          <li class="mega-item">
+                            <a href="#">KHỞI NGUỒN</a>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">DỊCH VỤ KHÁCH HÀNG</a>
+                          </li>
+                          <li class="mega-item">
+                            <a href="#">NGHỀ NGHIỆP</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-2 col-sm-2 banner">
+                        <div class="bannerMenu">
+                          <div class="txt">
+                            <a href="#">Thương hiệu bắt nguồn từ cà phê Việt</a>
+                          </div>
+                          <div class="img">
+                            <a href="#">
+                              <img src="img/about_menu.png" alt="Thương hiệu bắt nguồn từ cà phê Việt">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-mega"><a href="#">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header menu -->
+
+  <!-- Content top-->
+
+  <div class="order-container">
+    <div class="order-content">
+      <div class="listProduct">
+        <div class="listCoffee" id="caphe">
+          <div class="namelist"><h4>XEM GIỎ HÀNG</h4></div>
+          <ul class="coffee-ul">
+            <li class="coffee-li">
+              <div class="checkdat"><input type="checkbox" name="" id=""></div>
+              <div class="itemO-content">
+                <img src="img/caphedenda.png" alt="Cà Phê Đen Đá">
+                <div class="c-spO">
+                  <h6 class="spO">CÀ PHÊ ĐEN ĐÁ</h6>
+                  <span class="kt_spO">Size L : :</span>
+                  <div class="r-spO">
+                    <span class="price-O">35.000 Đ</span>
+                    <div class="sl-O">
+                      <button class=" slo slo-g">-</button>
+                      <input type="number" name="" id="" class="ct-sl" value="1">
+                      <button class=" slo slo-g">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="coffee-li">
+              <div class="checkdat"><input type="checkbox" name="" id=""></div>
+              <div class="itemO-content">
+                <img src="img/caphedenda.png" alt="Cà Phê Đen Đá">
+                <div class="c-spO">
+                  <h6 class="spO">CÀ PHÊ ĐEN ĐÁ</h6>
+                  <span class="kt_spO">Size L : :</span>
+                  <div class="r-spO">
+                    <span class="price-O">35.000 Đ</span>
+                    <div class="sl-O">
+                      <button class=" slo slo-g">-</button>
+                      <input type="number" name="" id="" class="ct-sl" value="1">
+                      <button class=" slo slo-g">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="coffee-li">
+              <div class="checkdat"><input type="checkbox" name="" id=""></div>
+              <div class="itemO-content">
+                <img src="img/caphedenda.png" alt="Cà Phê Đen Đá">
+                <div class="c-spO">
+                  <h6 class="spO">CÀ PHÊ ĐEN ĐÁ</h6>
+                  <span class="kt_spO">Size L : :</span>
+                  <div class="r-spO">
+                    <span class="price-O">35.000 Đ</span>
+                    <div class="sl-O">
+                      <button class=" slo slo-g">-</button>
+                      <input type="number" name="" id="" class="ct-sl" value="1">
+                      <button class=" slo slo-g">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="coffee-li">
+              <div class="checkdat"><input type="checkbox" name="" id=""></div>
+              <div class="itemO-content">
+                <img src="img/caphedenda.png" alt="Cà Phê Đen Đá">
+                <div class="c-spO">
+                  <h6 class="spO">CÀ PHÊ ĐEN ĐÁ</h6>
+                  <span class="kt_spO">Size L</span>
+                  <div class="r-spO">
+                    <span class="price-O">35.000 Đ</span>
+                    <div class="sl-O">
+                      <button class=" slo slo-g">-</button>
+                      <input type="number" name="" id="" class="ct-sl" value="1">
+                      <button class=" slo slo-g">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="thanhtoan">
+          <!-- <div class="order-dat">
+            <div class="dat-tong">
+              <div class="tong-div">
+                <span class="tongd-l">Cộng(<span>1 món</span>)</span>
+                <span class="tongd-r">50.000 Đ</span>
+              </div>
+              <div class="vc">
+                <span class="tongd-l">Vận chuyển</span>
+                <span class="tongd-l">0 Đ</span>
+              </div>
+              <div class="dat-ma">
+                <form action="">
+                  <input type="text" placeholder="Nhập mã ưu đãi tại đây">
+                  <input type="button" value="ÁP DỤNG">
+                </form>
+              </div>
+            </div>
+            <div class="tong-cong">
+              <span class="tongd-l">Tổng cộng</span>
+              <span class="tongd-l tientong">50.000 Đ</span>
+            </div>
+          </div> -->
+          <div class="xacnhan">
+            <div class="title-xn">
+              <h4>Xác nhận thông tin đơn hàng</h4>
+            </div>
+            <form action="" class="xn-form">
+              <ul class="xn-ul">
+                <li class="xn-ul-li">
+                  <div class="xn-div">
+                    <input type="text" placeholder="Nhập địa chỉ giao hàng">
+                    <a href=""><i class="fa fa-map-marker-alt"></i></a>
+                  </div>
+                </li>
+                <li class="xn-ul-li">
+                  <div class="xn-div">
+                    <input type="text" placeholder="Người nhận">
+                    <a href=""><i class="fa fa-user-circle"></i></a>
+                  </div>
+                </li>
+                <li class="xn-ul-li">
+                  <div class="xn-div">
+                    <input type="text" placeholder="Số điện thoại">
+                    <a href=""><i class="fa fa-phone-alt"></i></a>
+                  </div>
+                </li>
+                <li class="xn-ul-li">
+                  <div class="xn-div">
+                    <input type="text" placeholder="Ghi chú">
+                  </div>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="httt">
+            <div class="title-httt"><h4>Hình thức thanh toán</h4></div>
+            <div class="ds-httt">
+              <ul class="httt-list">
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/cash.png" alt=""></a>
+                    <a href=""><span>Thanh toán khi giao hàng</span></a>
+                  </div>
+                </li>
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/visa.png" alt=""></a>
+                    <a href=""><span>isa/Master/JCB</span></a>
+                  </div>
+                </li>
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/atm.png" alt=""></a>
+                    <a href=""><span>Thẻ ATM nội địa</span></a>
+                  </div>
+                </li>
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/momo.png" alt=""></a>
+                    <a href=""><span>Mo Mo</span></a>
+                  </div>
+                </li>
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/zalo.png" alt=""></a>
+                    <a href=""><span> ZaloPay</span></a>
+                  </div>
+                </li>
+                <li class="httt-item">
+                  <div class="item-httt">
+                    <input type="checkbox" name="" id="">
+                    <a href=""><img src="img/airpay.png" alt=""></a>
+                    <a href=""><span>AirPay</span></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dathang">
+            <div class="sp-dat">
+              <ul class="list-spd">
+                <li class="spd">
+                  <div class="sanpham-item">
+                    <button class="sanpham-item-button">1</button>
+                    <div class="ten-spd">
+                      <h6>Cà phê Đen đá</h6>
+                      <p>Nhỏ</p>
+                    </div>
+                    <span>50.000 Đ</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tong-spd">
+              <div class="tong-ten">
+                <span class="tong-l">Cộng(<span>1</span>món)</span>
+                <span class="tong-l">Vận chuyển</span>
+              </div>
+              <div class="tong-tien">
+                <span class="tien-r">50.000 Đ</span>
+                <span class="tien-r">0 Đ</span>
+              </div>
+              <div class="mauudai">
+                <input type="text" placeholder="Nhập mã ưu đãi tại đây">
+                <button>ÁP DỤNG</button>
+              </div>
+            </div>
+            <div class="tongtien">
+              <span class="tt-tien">Tổng cộng</span>
+              <span class="tien-tong">50.000 Đ</span>
+            </div>
+          </div>
+          <div class="dat">
+            <button>ĐẶT HÀNG</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- content bottom -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footerContent">
+      <ul class="footerul">
+        <li class="footeritem">
+          <div class="footerB">
+            <div class="footerIcon">
+              <ul class="iconMenu">
+                <li class="iconItem"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="iconItem"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li class="iconItem"><a href="#"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="footeritem">
+          <div class="copyright">
+            <span>© 2018 Highlands Coffee. All rights reserved</span>
+          </div>
+        </li>
+        <li class="footeritem">
+          <div class="dangky">
+            <a href="#"><i class="fa fa-paper-plane"></i></a>
+            <a href="#"><span>Đăng ký để nhận bảng tin</span></a>
+          </div>
+        </li>
+        <li class="footeritem">
+          <div class="sentMail">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><span>customerservice@hignhtcoffee.com.vn</span></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- Bootstrap -->
+  <script src="bootstrap/4.3.1/js/jquery.js"></script>
+  <script src="bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>
