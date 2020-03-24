@@ -526,7 +526,7 @@ li.menu-list , li.menu-mega {
     font-weight: 700;
     list-style-type: none;
     margin: 5px;
-    padding: 13px;
+    padding: 13px 4px;
 }
 
 .menuTop li:hover {
@@ -1110,7 +1110,7 @@ h1.detailName {
 
 .description {
     display: inline-block;
-    width: 50%;
+    width: 69%;
     float: right;
     padding-left: 24px;
 }
@@ -1149,10 +1149,8 @@ li.sizeItem {
 }
 
 .relace {
-    display: inline-block;
-    float: right;
-    width: 30%;
-    margin-top: 84px;
+    display: block;
+    margin-top: 10%;
 }
 
 ul.relaceList {
@@ -1175,9 +1173,6 @@ li.relaceItem {
 
 .detailRelace {
     display: inline-block;
-    width: 60%;
-    float: right;
-    padding-top: 11%;
 }
 
 .detailRelace h1 {
@@ -1192,14 +1187,13 @@ ul.relaceList {
 }
 
 .ct_sp {
-    padding-right: 28px;
-    width: 70%;
+    width: 65%;
     display: inline-block;
     padding-left: 88px;
-    margin-top: 100px;
-    margin-bottom: 52px;
-    border-right: 1px solid #EEEEEE;
+    transform: translateY(24%);
     padding-right: 28px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 20px;
 }
 
 .tt_content {
@@ -1604,5 +1598,32 @@ button.lh-button {
 button.lh-button:hover {
     color: #fff;
     background: #B02B2E;
+    border: none;
+}
+
+.menuTop.hidden-sm.hidden-xs ul {
+    padding: 0;
+}
+
+a {}
+
+.menuMaga button {padding: 10px;background: none;color: #fff;font-weight: bold;margin-right: 15px;}
+
+a {}
+
+.menuMaga a i {
+    margin-left: 7px;
+    font-size: 33px;
+}
+
+.imgProduct {
+    width: 30%;
+}
+
+.size button {padding: 4px 12px;border: 2px solid #AD2C2D;background: none;color: #AD2C2D;}
+
+.size button:hover {
+    color: #fff;
+    background: #AD2C2D;
     border: none;
 }
