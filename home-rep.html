@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik+Mono+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/text-repon.css">
+    <link rel="stylesheet" href="css/repon.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/text-repon.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="font/flaticon.css">
 
@@ -285,31 +288,54 @@
     </header>
     <!-- Header menu -->
 
-    <!-- Content top img -->
+    <div class="home-content">
+        <!-- Content top img -->
     <section class="contentTop">
         <div class="imgContent">
             <ul>
                 <li>
-                    <div class="contentItem">
-                        <a href="#">
-                            <img src="img/hl_about.jpg" alt="About 1">
-                        </a>
-                    </div>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="contentItem">
+                                <a href="#">
+                                    <img src="img/hl_about.jpg" alt="About 1">
+                                </a>
+                            </div>
+                        </div>
+                       
+                        <div class="mySlides fade">
+                            <div class="contentItem">
+                                <a href="#">
+                                    <img src="img/hl_about4.png" alt="About 1">
+                                </a>
+                            </div>
+                        </div>
+                       
+                        <div class="mySlides fade">
+                            <div class="contentItem">
+                                <a href="#">
+                                    <img src="img/VIET.Brand_Campaign_WEBBANNER.jpg">
+                                </a>
+                                <div class="buttonItem h-button-slider" >
+                                    <button class="item2 h-button1">CÙNG NHAU TỰ HÀO</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <div class="listdot" style="text-align:center; position: absolute; z-index: 10; transform: translateY(-100%); left: 47%;">
+                        <span class="dot" onclick="currentSlide(0)"></span> 
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                      </div>
                 </li>
                 <li>
                     <div class="contentItem">
                         <a href="#">
                             <img src="img/hl_about2.jpg" alt="About 1">
                         </a>
-                        <div class="buttonItem" style="
-    position: absolute;
-    transform: translateY(-149px);
-    right: 15%;
-">
-                            <button class="item1" style="
-    float: right;
-    right: 40px;
-">KHÁM PHÁ THÊM</button>
+                        <div class="buttonItem h-button2" >
+                            <button class="item1 b2-item1">KHÁM PHÁ THÊM</button>
                         </div>
                     </div>
                 </li>
@@ -318,7 +344,7 @@
                         <a href="#">
                             <img src="img/hl_about3.jpg" alt="About 1">
                         </a>
-                        <div class="buttonItem" style="right: 0px;position: absolute;transform: translateY(-377%);left: 22%;">
+                        <div class="buttonItem h-button3">
                             <button class="item2">KHÁM PHÁ THÊM</button>
                         </div>
                     </div>
@@ -328,7 +354,7 @@
                         <a href="#">
                             <img src="img/hl_about4.png" alt="About 1">
                         </a>
-                        <div class="buttonItem" style="bottom: 10%;float: right;position: absolute;left: 59%;">
+                        <div class="buttonItem h-button4" >
                             <button class="item3">KHÁM PHÁ THÊM</button>
                         </div>
                     </div>
@@ -339,7 +365,7 @@
     <!-- Content top img -->
 
     <!-- content bottom -->
-    <section class="contentBottom">
+    <div class="contentBottom">
         <div class="col col-sm-12 content">
             <div class="col-6  col-sm-6 contentLeft">
                 <div class="boxHome">
@@ -410,8 +436,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- content bottom -->
+
+    </div>
+
 
     <!-- footer -->
     <footer class="footer">
@@ -460,6 +489,7 @@
     <!-- footer -->
 
     <!-- Bootstrap -->
+    <script src="js/index.js"></script>
     <script src="bootstrap/4.3.1/js/jquery.js"></script>
     <script src="bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

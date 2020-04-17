@@ -163,6 +163,25 @@ img {
     /* transform: translateX(56%); */
 }
 
+.h-button2 {
+    position: absolute;
+    transform: translateY(-149px);
+    right: 15%;
+}
+
+.b2-item1 {
+    float: right;
+    right: 40px;
+}
+
+.h-button3 {
+    right: 0px;position: absolute;transform: translateY(-377%);left: 22%;
+}
+
+.h-button4 {
+    bottom: 10%;float: right;position: absolute;left: 59%;
+}
+
 .buttonItem button {
     border-color: rgb(243, 189, 122);
     background: none;
@@ -335,7 +354,7 @@ button.item2 {
     width: 100%;
 }
 
-.contentItem {}
+
 
 .contentItemb {
     display: block;
